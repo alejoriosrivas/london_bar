@@ -1,0 +1,261 @@
+@media screen and (max-witdh: 1024px) {
+
+}
+@media screen and (max-width: 958px) {
+    .body_header_container {
+        max-width: 90%;
+    }
+}
+@media screen and (min-width: 892px) {
+    /* HOME PAGE ANIMATIONS */
+    .sec_1_button_container button:hover {
+        color: var(--cafe);
+        background-color: var(--blancusco);
+    }
+    /* ======================= */
+    /* CONTACT PAGE ANIMATIONS */
+    .contact_inputs_container input:focus,
+    .contact_inputs_container textarea:focus,
+    .contact_inputs_container button:hover {
+        background-color: var(--cafesote-transparentoso-hover);
+    }
+    /* =============== */
+    /* GLOBAL SETTINGS */
+    .body_logo_container {
+        margin-top: 3rem;
+        display: none;
+    }
+    /* ======================== */
+    /* HEADER GLOBAL ANIMATIONS */
+    .header_logo_container a:hover,
+    .header_menu_list_container a:hover {
+        color: var(--tierra);
+    }
+    /* ============== */
+    /* ICON UP CONFIG */
+    .go_up_button:hover,
+    .go_up_button:hover > i {
+        color: var(--tierra-hover);
+        background-color: var(--black);
+    }
+    /* ================= */
+    /* FOOTER ANIMATIONS */
+    .footer_social_container i:hover,
+    .footer_location_container h3:hover,
+    .footer_location_container small:hover > a,
+    .footer_designed_by_container strong:hover {
+        color: var(--tierra-hover);
+    }
+}
+@media screen and (max-width: 892px) {
+    /* ==================== */
+    /* CONTACT PAGE ANIMATIONS */
+    .contact_subtitle_container {
+        max-width: 80%;
+        /* margin-top: 3rem; */
+    }
+    /* =================  */
+    /* MENU DE NAVEGACION */
+    .active_menu_container {
+        display: initial;
+    }
+    .active_menu_container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        padding: .5rem 1rem;
+        display: inline-block;
+    }
+    .active_menu_container i {
+        font-size: 3rem;
+        color: var(--tierra-hover);
+    }
+    .body_header_background {
+        left: -100vh;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        position: fixed;
+        transition: .3s;
+        align-items: center;
+        background: var(--black);
+    }
+    .is_active {
+        left: 0;
+    }
+    .body_header_container {
+        padding: initial;
+        height: inherit;
+    }
+    .header_logo_container {
+        display: none;
+    }
+    .header_menu_list_container {
+        display: inherit;
+        margin-bottom: 3rem;
+    }
+    .header_menu_list_container ul {
+        height: 100vh;
+        max-height: 600px;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-direction: column;
+    }
+    .header_menu_list_container li {
+        margin: 0;
+    }
+    /* ============ */
+    /* GALLERY PAGE */
+    /* .galeria_title_container {
+        margin-top: 4rem;
+    } */
+}
+@media screen and (max-width: 768px) {
+    /* INDEX PAGE */
+    /* BODY */
+    .sec_1_introduction {
+        margin-bottom: 12rem;
+    }
+    .sec_1_title_container h1 {
+        font-size: 4rem;
+    }
+    .sec_1_subtitle_container p {
+        font-size: 1.2rem;
+    }
+    .sec_1_title_container h1,
+    .sec_1_subtitle_container p {
+        font-weight: bold;
+        text-shadow: none;
+    }
+    .sec_1_button_container {
+        margin-top: 4rem;
+    }
+    /* ======================= */
+    /* CONTACT PAGE ANIMATIONS */
+    .contact_subtitle_container {
+        margin-top: 3rem;
+        max-width: initial;
+    }
+    /* =============== */
+    /* GLOBAL SETTINGS */
+    .body_logo_container {
+        margin-top: 3rem;
+    }
+    /* ================== */
+    /* MENU DE NAVEGACION */
+    .active_menu_container {
+        display: initial;
+    }
+    .active_menu_container {
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        padding: .5rem 1rem;
+        display: inline-block;
+    }
+    .active_menu_container i {
+        font-size: 3rem;
+        color: var(--tierra-hover);
+    }
+    .body_header_background {
+        left: -100vh;
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        position: fixed;
+        transition: .3s;
+        align-items: center;
+        background: var(--black);
+    }
+    .is_active {
+        left: 0;
+    }
+    .body_header_container {
+        padding: initial;
+        height: inherit;
+    }
+    .header_logo_container {
+        display: none;
+    }
+    .header_menu_list_container {
+        display: inherit;
+        margin-bottom: 3rem;
+    }
+    .header_menu_list_container ul {
+        height: 100vh;
+        max-height: 600px;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-direction: column;
+    }
+    .header_menu_list_container li {
+        margin: 0;
+    }
+    .go_up_button {
+        display: none;
+    }
+    /* ============ */
+    /* GALERY PAGE */
+    .galeria_title_container h1 {
+        margin-top: 5rem;
+    }
+    .imagenes_container {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* ============ */
+    /* RESERVATIONS PAGE */
+    .guide_container {
+        margin: 0 .5rem;
+    }
+    /* ============ */
+    /* CONTACT US PAGE */
+    .contact_subtitle_container {
+        margin: 1rem .5rem 2rem;
+    }
+    .contact_inputs_container {
+        margin: 0 auto;
+        padding: 0 .5rem;
+    }
+    .contact_inputs_container button {
+        width: 100%;
+    }
+    /* ============ */
+    /* ====== */
+    /* FOOTER SECTION */
+    .footer_designed_by_container p {
+        display: grid;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    /* =================  */
+    /* MENU DE NAVEGACION */
+    .header_menu_list_container {
+        margin-bottom: 0;
+    }
+    /* ===== */
+    /* BODY */
+    .sec_1_introduction {
+        margin-bottom: 0;
+    }
+    .sec_1_title_container h1 {
+        font-size: 2.8rem;
+    }
+    .sec_1_subtitle_container p {
+        font-size: 1rem;
+    }
+    .sec_1_button_container {
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 320px) {
+
+}

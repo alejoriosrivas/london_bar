@@ -1,0 +1,43 @@
+.body {
+    background-color: unset;
+}
+/* .body_logo_container {
+    padding-top: 3rem;
+    margin-top: 0 !important;
+    background-color: var(--black);
+}
+.body_logo_container h1 {
+    margin-top: 0;
+} */
+.body_header_background,
+.reservations_title_container {
+    background-color: var(--black);
+}
+.reservations_title_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.reservations_title_container h1 {
+    align-self: center;
+}
+.reservations_guide_container {
+    height: 200vh;
+    text-align: center;
+    background-color: var(--cafesote);
+}
+.guide_title_container {
+    display: inline-block;
+}
+.guide_title_container h2 {
+    margin: 3rem 0;
+}
+.guide_container p {
+    color: var(--tierra);
+}
+/* BODY GLOBAL CONFIG */
+.guide_title_container h2,
+.reservations_title_container h1 {
+    font-size: 2.9rem;
+    color: var(--tierra-clara);
+}

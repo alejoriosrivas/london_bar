@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/galeria.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css"/>
+    <title>Galería</title>
+    <!-- RESOURCES -->
+    <script src="../assets/scripts/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="../assets/scripts/fancybox-master/dist/jquery.fancybox.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../assets/icons/style.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../assets/icons/@fortawesome/fontawesome-free/css/all.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <main class="body_container">
+        <div id="body" class="body">
+            
+            <div class="body_logo_container">
+                <h1>
+                    LONDON BAR
+                </h1>
+            </div>
+
+            
+            <div id="menu_button" class="active_menu_container">
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+
+            <div id="menu" class="body_header_background">
+                <header class="body_header_container">
+                    <div class="header_logo_container">
+                        <h2>
+                            <a href="index.htm">
+                                LONDON BAR
+                            </a>
+                        </h2>
+                    </div>
+                    <nav class="header_menu_list_container">
+                        <ul>
+                            <li>
+                                <a href="../index.htm">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="noticias.htm">
+                                    Noticias
+                                </a>
+                            </li>
+                            <li>
+                                <a href="galeria.htm">
+                                    Galería
+                                </a>
+                            </li>
+                            <li>
+                                <a href="reservaciones.htm">
+                                    Reservaciones
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contactenos.htm">
+                                    Contáctenos
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+
+            <div class="body_galeria_container">
+                <div class="galeria_title_container">
+                    <h1>
+                        Galería de fotos
+                    </h1>
+                </div>
+
+                <div class="margen"></div>
+
+                <div class="imagenes_container">
+                    <a href="../assets/img/1.jpg" data-fancybox="gallery" data-caption="C1">
+                        <img src="../assets/img/1.jpg" alt="Imagen de producto"/>
+                    </a>
+                    <a href="../assets/img/2.jpg" data-fancybox="gallery" data-caption="C2">
+                        <img src="../assets/img/2.jpg" alt="Imagen de producto"/>
+                    </a>
+                    <a href="../assets/img/3.jpg" data-fancybox="gallery" data-caption="C3">
+                        <img src="../assets/img/3.jpg" alt="Imagen de producto"/>
+                    </a>
+                    <a href="../assets/img/4.jpg" data-fancybox="gallery" data-caption="C4">
+                        <img src="../assets/img/4.jpg" alt="Imagen de producto"/>
+                    </a>
+                    <a href="../assets/img/5.jpg" data-fancybox="gallery" data-caption="C5">
+                        <img src="../assets/img/5.jpg" alt="Imagen de producto"/>
+                    </a>
+                    <a href="../assets/img/6.jpg" data-fancybox="gallery" data-caption="C6">
+                        <img src="../assets/img/6.jpg" alt="Imagen de producto"/>
+                    </a>
+                    <a href="../assets/img/1.jpg" data-fancybox="gallery" data-caption="C1">
+                        <img src="../assets/img/1.jpg" alt="Imagen de producto"/>
+                    </a>
+                    <a href="../assets/img/2.jpg" data-fancybox="gallery" data-caption="C2">
+                        <img src="../assets/img/2.jpg" alt="Imagen de producto"/>
+                    </a>
+                    <a href="../assets/img/3.jpg" data-fancybox="gallery" data-caption="C3">
+                        <img src="../assets/img/3.jpg" alt="Imagen de producto"/>
+                    </a>
+                </div>
+
+                <div class="margen"></div>
+                
+            </div>
+        </div>
+
+        <div class="go_up_button">
+            <a href="#body">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+
+        <footer class="footer_container">
+            <div class="footer">
+                <div class="footer_location_container">
+                    <a href="">
+                        <h3>
+                            Medellín
+                        </h3>
+                    </a>
+                    <small>
+                        <a href="">
+                            (+57) 319 4636414
+                        </a>
+                        <br>
+                        <a href="">
+                            Calle 56 #40-23, Córdoba - Planeta Rica
+                        </a>
+                    </small>
+                </div>
+                <div class="footer_social_container">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="footer_designed_by_container">
+                    <p>
+                        Diseñado por <strong>TR Corporations</strong>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../assets/scripts/fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <script>
+        $('[data-fancybox]').fancybox({
+            protect: true
+        });
+    </script>
+    <script type="text/javascript" src="../assets/scripts/main.js"></script>
+</body>
+</html>

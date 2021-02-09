@@ -1,0 +1,97 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--tierra-hover);
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+p {
+    color: var(--tierra-clara);
+}
+.body_contact_container {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.contact_subtitle_container {
+    margin: 0 0 3rem;
+    display: inline-block;
+}
+.contact_inputs_container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+.contact_inputs_container form {
+    display: grid;
+    position: relative;
+    grid-row-gap: .6rem;
+    grid-template-rows: 3.5rem 3.5rem 3.5rem 8rem 3.5rem;
+}
+.contact_inputs_container textarea {
+    resize: none;
+}
+.contact_inputs_container button {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    height: 3.5rem;
+}
+.contact_information_container h3 {
+    margin: 4rem 0 .8rem;
+}
+.contact_information_container h4 {
+    margin: 2rem 0;
+}
+/* BODY GLOBAL SETTINGS */
+.contact_inputs_container input,
+.contact_inputs_container textarea,
+.contact_inputs_container button {
+    transition: .3s;
+}
+.contact_inputs_container input:focus,
+.contact_inputs_container textarea:focus {
+    box-shadow: 0 0 5px 1px var(--cafesote-transparentoso);
+    background-color: var(--cafesote-transparentoso-hover);
+}
+/* .contact_inputs_container input:focus,
+.contact_inputs_container textarea:focus,
+.contact_inputs_container button:hover {
+    background-color: var(--cafesote-transparentoso-hover);
+} */
+.contact_inputs_container input,
+.contact_inputs_container textarea {
+    font-size: 1rem;
+    padding: 1.5rem 2rem;
+}
+.contact_inputs_container input::placeholder,
+.contact_inputs_container textarea::placeholder {
+    color: var(--cafe);
+}
+.contact_inputs_container input,
+.contact_inputs_container textarea,
+.contact_inputs_container button {
+    color: var(--tierra-hover);
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: var(--cafesote-transparentoso);
+}
+.contact_subtitle_container h2,
+.contact_information_container h3,
+.contact_information_container h4 {
+    font-size: 1.3rem;
+    display: inline-block;
+    color: var(--tierra-hover);
+    font-family: var(--raleway);
+}
+.contact_information_container p,
+.contact_information_container strong {
+    line-height: 3rem;
+}
